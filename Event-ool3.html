@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
+	<script src="js/all.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="css/events.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="Font/font.css">
+	<title>Minders | Out Of Loop III</title>
+</head>
+<body>
+	<!-- Navbar -->
+  <section id="nav">
+      <nav class="navbar navbar-expand-xl  fixed-top navbar-dark ">
+        <a href="index.html" class="navbar-brand offset-md-1 offset-1" style="color: white;">
+          <img style="margin-top: -5px;" src="img/micon.png" height="30px" alt=""> Minders</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse offset-xl-2 offset-xxl-3" id="menu">
+            <ul class="navbar-nav offset-xl-1" id="navbar-nav">
+                <div class="col">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" style="color: #F1C40F;text-align: center;">HOME</a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link" style="color: #F1C40F;text-align: center;">ABOUTUS</a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item">
+                            <a href="all-events.html" class="nav-link active" 
+                            style="color: #F1C40F;text-align: center;">EVENTS</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item">
+                            <a href="index.html#sponsers" class="nav-link" style="color: #F1C40F;text-align: center;">SPONSORS</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item">
+                            <a href="index.html#team" class="nav-link" style="color: #F1C40F;text-align: center;">TEAM</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item">
+                            <a href="https://minders-fci.org/blog/" class="nav-link"
+                                style="color: #F1C40F;text-align: center;">MAGAZINE</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+	<!-- Header -->
+	<section class="row">
+		<div class="col-12 event_header ool3-cover">	
+		  <div class="row">	
+			<div class="col-12 cover_details">
+				<h1>OUT OF LOOP III</h1>
+				<p>Hurry up and join our event!</p>
+				<button class="btn form_btn">The Form is closed</button>
+			</div>
+		</div>
+		<div class="row event_header_icons justify-content-center">	
+			<div class="col-6 col-md-4">	
+				<button type="button" class="btn col-2" data-toggle="tooltip" data-placement="bottom" title="19 to 21 September , 2019">
+					<i class="fas fa-calendar-week"></i>
+				</button>
+				<button type="button" class="btn col-2" data-toggle="tooltip" data-placement="bottom" title="Idea Space" >
+					<i class="fas fa-map-marker-alt"></i>
+				</button>
+				<button type="button" class="btn col-2" data-toggle="tooltip" data-placement="bottom" title="From 9:00AM to 6:00PM">
+					<i class="far fa-clock"></i>
+				</button>
+			 </div>
+		  </div>
+      <div class="row justify-content-center btn-back">
+        <a class="col-md-4 col-6" href="all-events.html">Back to all events</a>
+      </div>  	
+	  </div> 
+	</section>	
+  <!--up button-->
+  <div class="row justify-content-end fixed-bottom">
+    <div class=" col-2 col-md-1 offset-md-11">
+      <a href="#nav"><button class="btn up-btn"><i class="fas fa-arrow-up"></i></button></a>
+    </div>
+  </div>
+
+	<!-- Description Section -->
+	<section class="description">
+	  <div class="container">	
+		<div class="row description-header" data-aos="fade-down" data-aos-duration="1000">
+			<h2>description</h2>
+		</div>
+		<div class="row linerow justify-content-center" data-aos="fade-upl" data-aos-duration="1000">
+      		<div class="col-6 col-lg-4 linecol">
+       			<div class="line"></div>
+      		</div>
+    	</div>
+		<div class="row " id="description-content">
+			<div class="col-8 description-content justify-content-start"> 
+				<p data-aos="fade-left" data-aos-duration="1000">Well, fear nothing my friend, Minders will guide you through every part in our annual event, "Out Of Loop" in a 3 day workshop where you'll practice almost all the basics you need so there's no dilemma any more. At the end of this event you will be able to know these topics and implement them on your own start up perfectly:
+				</p>
+				<div class="row justify-content-center" data-aos="fade-right" data-aos-duration="1500">
+					<button class="col-md-5 col-8 btn btn-description" id="btn-description" onclick="toggleDetails()">event sessions <i class="fas fa-angle-double-down"></i></button>
+				</div>
+				<div class="row description-hidden-content" id="description-hidden-content">
+					<li class="col-6 col-lg-4">Entrepreneurship.</li>
+					<li class="col-6 col-lg-4">Brainstorming.</li>
+					<li class="col-6 col-lg-4">Feasibility Study.</li>
+					<li class="col-6 col-lg-4">Q&A.</li>
+					<li class="col-6 col-lg-4">Market Research.</li>
+					<li class="col-6 col-lg-4">Project Management.</li>
+					<li class="col-6 col-lg-4">Financial & Legal aspect.</li>
+					<li class="col-6 col-lg-4">Marketing.</li>
+					<li class="col-12 col-lg-4">Pitching.</li>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</section>
+
+	<!-- Speakers Section -->
+  	<section class="row speakers">
+  	  <div class="col-12 container">	
+  		<div class="row">
+  			<div class="speaker-header" data-aos="fade-down" data-aos-duration="1000">
+  				<h2>Event Speakers</h2>
+  			</div>
+  		</div>
+  		<div class="row linerow justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+      		<div class="col-6 col-lg-4 linecol">
+       			<div class="line"></div>
+      		</div>
+    	</div>
+    	<div class="row" data-aos="fade-down" data-aos-duration="1000">
+  			<div class="card col-3" id="scard1">
+  				<img src="img/events/OOL3/speaker1.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Omar Hamdy</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard2">
+  				<img src="img/events/OOL3/speaker2.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Ahmed Elassi</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard3">
+  				<img src="img/events/OOL3/speaker3.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Alaa Ayman</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard4">
+  				<img src="img/events/OOL3/speaker4.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Samer Awad</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard5">
+  				<img src="img/events/OOL3/speaker5.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Houssam Abdelfattah</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard6">
+  				<img src="img/events/OOL3/speaker6.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Mostafa Ibrahiem</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard7">
+  				<img src="img/events/OOL3/speaker7.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Nada Abdelwahab</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard8">
+  				<img src="img/events/OOL3/speaker8.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Mohamed Green</p>
+ 	 			</div>
+  			</div>
+  			<div class="card col-3" id="scard9">
+  				<img src="img/events/OOL3/speaker9.jpg" class="card-img-top" alt="Omar Hamdy">
+  				<div class="card-body">
+    				<p class="card-text">Omar Mokhtar</p>
+ 	 			</div>
+  			</div>
+  		</div>
+  	  </div>
+  	</section>
+
+  	<!-- Start of Agenda section -->
+  	<section class="agenda" style="margin-bottom: 50px;">
+        <div class="container">
+            <div class="row">	
+            	<div class="agenda-header block__headline" data-aos="fade-down" data-aos-duration="1000">	
+            		<h2>Event Agenda</h2>	
+            	</div>		
+            </div>	 
+            <div class="row linerow justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+      			<div class="col-6 col-lg-4 linecol">
+       				<div class="line"></div>
+      			</div>
+    		</div>
+    		<div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Registeration</h3>
+                    <h3 class="time">9:30AM to 10:00AM</h3>
+                </div>
+
+                
+            </div>
+            <div class="agenda__block" data-aos="fade-right" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Orientation</h3>
+                    <h3 class="time">10:00AM to 10:15AM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Entrepreneurship</h3>
+                    <h3 class="time">10:15AM to 11:15AM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-right" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Brainstorming</h3>
+                    <h3 class="time">11:15AM to 11:45AM</h3>
+                </div>
+
+            </div>
+            <div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Activity</h3>
+                    <h3 class="time">11:45AM to 12:00PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-right" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">How to get an idea</h3>
+                    <h3 class="time">12:00PM to 12:30PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Activity</h3>
+                    <h3 class="time">12:30PM to 1:00PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-right" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Break</h3>
+                    <h3 class="time">1:00PM to 1:30PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Market Research</h3>
+                    <h3 class="time">1:30PM to 3:30PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-right" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Activity</h3>
+                    <h3 class="time">3:30PM to 4:20PM</h3>
+                </div>
+            </div>
+            <div class="agenda__block" data-aos="fade-left" data-aos-duration="1000">
+                <div class="info">
+                    <h3 class="name">Project Management</h3>
+                    <h3 class="time">4:20PM to 5:20PM</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Agenda -->
+
+	<!-- start of footer -->
+  <section class="row footer">
+    <footer class="col-12">
+    <div class="row">	
+      <!--Facebook-->
+      <div class="fb-page col-lg-4 " data-href="https://www.facebook.com/MindersFCIH/?epa=SEARCH_BOX"
+        data-tabs="timeline , events" data-width="350" data-height="" data-small-header="false"
+        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/MindersFCIH/?epa=SEARCH_BOX" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/MindersFCIH/?epa=SEARCH_BOX">Minders</a>
+        </blockquote>
+      </div>
+
+      <!--twitter-->
+      <div class="twitter-page col-lg-4" id="twitter-page">
+        <a class="twitter-timeline" data-width="350" data-height="70" data-tweet-limit="1"
+          href="https://twitter.com/MindersFCIH?ref_src=twsrc%5Etfw">Tweets by @MindersFCIH</a>
+      </div>
+      <div class="col-lg-3 footer-p">
+        <p><strong style="color: #FFB607; font-size: 20px;">Always REMEMBER</strong><br><br>
+          Never let a day pass without looking for the good, appreciating, blessing, and being grateful, Make it your
+          life commitment.
+        </p>
+
+        <!-- fontawesome -->
+        <h3>HURRY UP AND FOLLOW US</h3>
+        <a href="https://www.facebook.com/MindersFCIH/"><i class="fab fa-facebook" style="font-size:24px;color: rgb(48, 48, 221);"></i></a>
+        <a href="https://www.instagram.com/mindersfcih/?hl=en"><i class="fab fa-instagram" style="font-size:24px;color: rgb(173, 35, 173)"></i></a>
+        <a href="https://twitter.com/MindersFCIH"><i class="fab fa-twitter" style="font-size:24px;color: rgb(48, 172, 221);"></i></a>
+      </div>
+      </div>
+    </footer>
+  </section>
+  <section class="row footer-copyright">
+    <div class="col-12">
+          <div class="row copyright-line"></div>
+        </div>
+      <div class="copyright col-12">
+        <i class="far fa-copyright" style="font-size:24px;"></i><i> Copyright 2020 Minders FCIH. All Rights Reserved.<br>Designed by Minders IT.</i>
+      </div>
+  </section>
+
+  	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  	<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/events.js"></script>
+    <script>
+    	AOS.init({
+
+    	});
+
+
+  	</script>
+</body>
+</html>
